@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "A clean professional resume template",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.sass css/style.css -w"
+  },
+  "author": "Gabriel Sabella",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

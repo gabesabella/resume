@@ -1,0 +1,295 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /*Inherits from body */
+}
+
+body {
+  background-color: lightblue;
+}
+
+.resume-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 950px;
+  margin: 10px auto;
+  place-items: center;
+}
+
+/* Utility Classes */
+.header-text {
+  font-family: "Arvo", serif;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.big-margin {
+  margin: 50px 40px;
+}
+
+.light {
+  color: #fff;
+}
+
+.no-bold {
+  font-weight: 400;
+}
+
+.old-style {
+  font-variant-numeric: oldstyle-nums;
+}
+
+.big-text {
+  font-size: 20px !important;
+}
+
+.dark {
+  color: #333;
+}
+
+.caps {
+  font-variant: small-caps;
+}
+
+.body-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+}
+.body-text-small {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+.center {
+  text-align: center;
+}
+
+.standard-padding {
+  padding: 15px 30px;
+}
+
+.standard-text {
+  line-height: 1.3em;
+  margin-bottom: 15px;
+}
+
+.pb {
+  padding-bottom: 10px;
+}
+
+.ul-margin {
+  margin: 0 40px;
+}
+
+.pt {
+  padding-top: 20px;
+}
+.pt-sm {
+  padding-top: 10px;
+}
+.pt-md {
+  padding-top: 15px;
+}
+
+.py-30 {
+  padding: 15px 0 0 30px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.mt-sm {
+  margin-top: 2px;
+}
+
+.mt-md {
+  margin-top: 5px;
+}
+
+.mt-lg {
+  margin-top: 10px;
+}
+
+.divider-dark {
+  border-bottom: 1px solid #333;
+}
+
+.divider-light {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.icon:hover {
+  color: purple;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.site {
+  font-style: italic;
+  color: red;
+  font-weight: 500;
+  text-decoration: none;
+}
+.site a,
+.site a:visited {
+  color: #53bced;
+  text-decoration: none;
+}
+
+.contactInfo {
+  margin: 20px 40px;
+}
+.contactInfo ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.contactInfo ul li:not(:last-child) {
+  margin: 25px 0;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 20px;
+  color: #53bced;
+  margin-right: 15px;
+}
+
+.cert-container {
+  display: flex;
+  flex-direction: row;
+  /* height: 300px; */
+}
+
+.cert-unit {
+  margin-top: 15px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-evenly;
+  font-style: italic;
+  font-weight: regular;
+}
+.courses ul {
+  list-style-type: disc;
+  flex-wrap: wrap;
+  line-height: 21px;
+}
+.courses ul li {
+  padding-top: 5px;
+}
+
+.education {
+  margin: 35px 40px;
+}
+
+.profile {
+  display: flex;
+  height: 220px;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: 40px;
+  border-radius: 50%;
+  background-image: url(../profile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.progress-container {
+  display: grid;
+  margin-top: 10px;
+  padding: 0 40px;
+}
+
+.outer {
+  height: 15px;
+  width: 245px;
+  background: #fff;
+  margin: 4px 0;
+}
+
+.inner {
+  height: inherit;
+  background: #53bced;
+  width: 75%;
+}
+
+#html {
+  width: 100%;
+}
+
+#css {
+  width: 100%;
+}
+
+#scss {
+  width: 95%;
+}
+
+#js {
+  width: 90%;
+}
+
+#react {
+  width: 85%;
+}
+
+#java {
+  width: 80%;
+}
+
+#sql {
+  width: 75%;
+}
+
+.name-role {
+  margin: 25px;
+  border-bottom: 1px solid #333;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: lighter;
+  line-height: 50px;
+  letter-spacing: 2px;
+  display: inline;
+}
+
+.role {
+  font-size: 27px;
+  font-weight: 300;
+  margin: 12px 0 25px 0;
+  font-style: italic;
+}
+
+.left {
+  /* height: calc(100vh - 60px); */
+  height: 1055px;
+  background-color: #333;
+  width: 328px;
+}
+
+.right {
+  background-color: #fff;
+  height: 100%;
+  width: 620px3;
+}
