@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  /*Inherits from body */
 }
 
 body {
@@ -49,8 +48,16 @@ body {
   font-size: 20px !important;
 }
 
+.small-text {
+  font-size: 15px;
+}
+
 .dark {
   color: #333;
+}
+
+.text-lg {
+  font-size: 24px !important;
 }
 
 .caps {
@@ -143,9 +150,8 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-.site a,
-.site a:visited {
-  color: #53bced;
+.site a, .site a:visited {
+  color: #53BCED;
   text-decoration: none;
 }
 
@@ -163,7 +169,7 @@ body {
   display: inline-block;
   width: 30px;
   font-size: 20px;
-  color: #53bced;
+  color: #53BCED;
   margin-right: 15px;
 }
 
@@ -208,7 +214,7 @@ body {
   width: 170px;
   top: 40px;
   border-radius: 50%;
-  background-image: url(../profile.png);
+  background-image: url(../hero-me.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -224,12 +230,12 @@ body {
   height: 15px;
   width: 245px;
   background: #fff;
-  margin: 4px 0;
+  margin: 6px 0;
 }
 
 .inner {
   height: inherit;
-  background: #53bced;
+  background: #53BCED;
   width: 75%;
 }
 
@@ -291,5 +297,7 @@ body {
 .right {
   background-color: #fff;
   height: 100%;
-  width: 620px3;
+  width: 620px;
 }
+
+/*# sourceMappingURL=style.css.map */
