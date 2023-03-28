@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "A clean professional resume template",
+  "description": "Computer Science Resume",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass sass/main.sass css/style.css -w"
